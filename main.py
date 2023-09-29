@@ -40,5 +40,9 @@ print('--------------------------')
 word_reversed = ""
 for char in range(len(word)-1, -1, -1):
 	word_reversed += word[char]
-	
+print(word_reversed)
+print('--------------------------')
+
 # 3. Refactor the code to print a combination of the original and reversed string. For example, given 'tomato', print 'tomatootamot'. (If you want to be fancy, print 'tomato | otamot').
+
+print(f"{word} | {word_reversed}")
